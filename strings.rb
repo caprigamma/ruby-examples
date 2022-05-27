@@ -30,4 +30,8 @@ puts frase.reverse!
 puts frase
 puts frase.downcase!
 puts frase
-
+#Interpolacion de cadenas
+puts destino ="Acapulco"
+puts nombre = "César"
+puts nombre2= "Romi"
+puts "Vamonos a #{destino.capitalize}, #{nombre.capitalize} paga los ticket de avión. y #{nombre2.capitalize} paga el hospedaje"
