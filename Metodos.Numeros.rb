@@ -17,4 +17,6 @@ puts numero_siguiente.even?
      print 78905.digits
      #redondear un numero flotante
      puts 5609.78203.round
-     puts 5609.78203.round
+     puts 5609.78203.to_i
+     puts 5609.78203.floor
+     puts 5609.7820.ceil
