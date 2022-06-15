@@ -1,4 +1,5 @@
-class alumnos 
+require_relative "classes/alumnos"
 
-    def full_name(name, last_name)
-        puts "El nombre completo es" #
+objeto= Alumnos.new
+
+objeto.full_name ("Roberto", "Hernandez")
