@@ -1,6 +1,6 @@
-class Dog
+class Cat
     attr_accessor :noise
     def initialize
-        @noise= "Wuauu"
+        @noise= "Miauuuu"
     end
 end
